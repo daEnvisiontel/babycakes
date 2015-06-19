@@ -1,0 +1,165 @@
+@font-face {
+	font-family: 'jssocial';
+	src:url('fonts/jssocial.eot');
+	src:url('fonts/jssocial.eot?#iefix') format('embedded-opentype'),
+		url('fonts/jssocial.woff') format('woff'),
+		url('fonts/jssocial.ttf') format('truetype'),
+		url('fonts/jssocial.svg#jssocial') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'jssocial';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-phone, .icon-loop, .icon-retweet, .icon-layout, .icon-list, .icon-arrow-down, .icon-googleplus, .icon-pinterest, .icon-tumblr, .icon-linkedin, .icon-stumbleupon, .icon-skype, .icon-flickr, .icon-vimeo, .icon-twitter, .icon-facebook, .icon-list-2, .icon-rss, .icon-feed, .icon-twitter-2, .icon-vimeo-2, .icon-facebook-2, .icon-linkedin-2, .icon-tumblr-2, .icon-googleplus-2, .icon-pinterest-2, .icon-stumbleupon-2, .icon-play, .icon-record, .icon-stop, .icon-next, .icon-previous, .icon-first, .icon-last, .icon-phone-2, .icon-play-alt, .icon-cross, .icon-plus, .icon-minus, .icon-plus-2, .icon-minus-2, .icon-play-2 {
+	font-family: 'jssocial';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-phone:before {
+	content: "\e000";
+}
+.icon-loop:before {
+	content: "\e001";
+}
+.icon-retweet:before {
+	content: "\e002";
+}
+.icon-layout:before {
+	content: "\e003";
+}
+.icon-list:before {
+	content: "\e004";
+}
+.icon-arrow-down:before {
+	content: "\e005";
+}
+.icon-googleplus:before {
+	content: "\e006";
+}
+.icon-pinterest:before {
+	content: "\e007";
+}
+.icon-tumblr:before {
+	content: "\e008";
+}
+.icon-linkedin:before {
+	content: "\e009";
+}
+.icon-stumbleupon:before {
+	content: "\e00a";
+}
+.icon-skype:before {
+	content: "\e00b";
+}
+.icon-flickr:before {
+	content: "\e00c";
+}
+.icon-vimeo:before {
+	content: "\e00d";
+}
+.icon-twitter:before {
+	content: "\e00e";
+}
+.icon-facebook:before {
+	content: "\e00f";
+}
+.icon-list-2:before {
+	content: "\e010";
+}
+.icon-rss:before {
+	content: "\e011";
+}
+.icon-feed:before {
+	content: "\e012";
+}
+.icon-twitter-2:before {
+	content: "\e013";
+}
+.icon-vimeo-2:before {
+	content: "\e014";
+}
+.icon-facebook-2:before {
+	content: "\e015";
+}
+.icon-linkedin-2:before {
+	content: "\e016";
+}
+.icon-tumblr-2:before {
+	content: "\e017";
+}
+.icon-googleplus-2:before {
+	content: "\e018";
+}
+.icon-pinterest-2:before {
+	content: "\e019";
+}
+.icon-stumbleupon-2:before {
+	content: "\e01a";
+}
+.icon-play:before {
+	content: "\e01b";
+}
+.icon-record:before {
+	content: "\e01c";
+}
+.icon-stop:before {
+	content: "\e01d";
+}
+.icon-next:before {
+	content: "\e01e";
+}
+.icon-previous:before {
+	content: "\e01f";
+}
+.icon-first:before {
+	content: "\e020";
+}
+.icon-last:before {
+	content: "\e021";
+}
+.icon-phone-2:before {
+	content: "\e022";
+}
+.icon-play-alt:before {
+	content: "\e023";
+}
+.icon-cross:before {
+	content: "\e024";
+}
+.icon-plus:before {
+	content: "\e025";
+}
+.icon-minus:before {
+	content: "\e026";
+}
+.icon-plus-2:before {
+	content: "\e027";
+}
+.icon-minus-2:before {
+	content: "\e028";
+}
+.icon-play-2:before {
+	content: "\e029";
+}

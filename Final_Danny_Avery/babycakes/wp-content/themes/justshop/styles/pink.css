@@ -1,0 +1,686 @@
+/* Style: pink */
+/* This stylesheet is responsive for converting the style to blue for Justshop theme of Templatation.com */
+/* www.Templatation.com */
+
+/*-------------------------------------------------------------------------------------------
+
+	INDEX:
+	1. SETUP
+	2. Defaults and Heading tags
+	3. Page layout
+	4. Post/page structure
+	5. Footer structure 
+	6. Portfolio structure
+	7. Woocommerce Styles
+	8. Tooltip Styles
+	9. Media queries
+	
+	Note : Main styles are in ../style.css , styles for desktop version are in css/layouts.css and Responsive styles are in css/responsive.css
+
+-------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------*/
+/* 1. SETUP */
+/*-------------------------------------------------------------------------------------------*/
+@-webkit-keyframes spin-360{from{-webkit-transform:rotate(0);
+-moz-transform:rotate(0);
+-ms-transform:rotate(0);
+-o-transform:rotate(0);
+transform:rotate(0);
+zoom:1}
+50%{-webkit-transform:rotate(180deg);
+-moz-transform:rotate(180deg);
+-ms-transform:rotate(180deg);
+-o-transform:rotate(180deg);
+transform:rotate(180deg);
+zoom:1}
+to{-webkit-transform:rotate(0);
+-moz-transform:rotate(0);
+-ms-transform:rotate(0);
+-o-transform:rotate(0);
+transform:rotate(0);
+zoom:1}
+}
+@-webkit-keyframes popin{from{-webkit-transform:scale(0);
+-moz-transform:scale(0);
+-ms-transform:scale(0);
+-o-transform:scale(0);
+transform:scale(0)}
+60%{-webkit-transform:scale(0.005);
+-moz-transform:scale(0.005);
+-ms-transform:scale(0.005);
+-o-transform:scale(0.005);
+transform:scale(0.005)}
+95%{-webkit-transform:scale(1.05);
+-moz-transform:scale(1.05);
+-ms-transform:scale(1.05);
+-o-transform:scale(1.05);
+transform:scale(1.05)}
+to{-webkit-transform:scale(1);
+-moz-transform:scale(1);
+-ms-transform:scale(1);
+-o-transform:scale(1);
+transform:scale(1)}
+}
+@-webkit-keyframes salepulse{from{-webkit-transform:scale(1);
+-moz-transform:scale(1);
+-ms-transform:scale(1);
+-o-transform:scale(1);
+transform:scale(1)}
+70%{-webkit-transform:scale(1.1);
+-moz-transform:scale(1.1);
+-ms-transform:scale(1.1);
+-o-transform:scale(1.1);
+transform:scale(1.1)}
+to{-webkit-transform:scale(1);
+-moz-transform:scale(1);
+-ms-transform:scale(1);
+-o-transform:scale(1);
+transform:scale(1)}
+}
+@-webkit-keyframes glowbutton {
+  from {
+    background-color: #C95980;
+  }
+  50% {
+    background-color: #4cd8f8;
+  }
+  to {
+    background-color: #C95980;
+  }
+}
+@-webkit-keyframes slidedown{from{top:-500px}
+95%{top:1em}
+to{top:0}
+}
+span.onsale,span.onsale:after{background:#e01c1f}
+
+/*-------------------------------------------------------------------------------------------*/
+/* 2. Defaults and Heading tags */
+/*-------------------------------------------------------------------------------------------*/
+
+::selection {
+  background: #C95980;
+}
+::-moz-selection {
+  background: #C95980;
+}
+a {
+  color: #C95980;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #C95980;
+}
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  color: #C95980;
+}
+a.remove {
+  background: #C95980;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* 3. Page layout */
+/*-------------------------------------------------------------------------------------------*/
+#header.d {
+  background-color: #C95980;
+}
+#header.d #navigation > ul > li,
+#headline .headline-right-side .header-cart,
+.tparrows.default,
+.tp-bullets.simplebullets.round .bullet {
+  background-image: url("../images/pink/sprite-a.png");
+}
+#navigation .nav a,
+#yith-wcwl-popup-message {
+  color: #C95980;
+}
+.slider-layout2, .slider-layout3 {
+  background-color: #C95980;
+}
+#header .nav-toggle span {
+  color: #C95980;
+}
+#reviews #comments li.comment .comment_container .verified:before {
+  color: #C95980;
+}
+#respond h3 #cancel-comment-reply-link {
+  color: #C95980;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #C95980;
+}
+/* Buttons (Includes WF chortcode buttons) */
+a.button,
+#commentform #submit,
+.submit,
+input[type=submit],
+input.button,
+button.button,
+#wrapper .woo-sc-button,
+.added_to_cart,
+.ns_button.wpb_button,
+.tt_cta_button.wpb_button,
+.yith-wcwl-add-button a.add_to_wishlist,
+.yith-wcwl-add-button .add_to_wishlist,
+.yith-wcwl-wishlistexistsbrowse a,
+.yith-wcwl-wishlistaddedbrowse a {
+  background-color: #C95980;
+  /* Box shadow */
+  box-shadow: 0 2px 0 #A0375B; 
+  -moz-box-shadow: 0 2px 0 #A0375B; 
+  -webkit-box-shadow: 0 2px 0 #A0375B;
+}
+a.comment-reply-link{
+    background: none repeat scroll 0 0 #aa8a71;
+}
+a.button:hover,
+a.comment-reply-link:hover,
+#commentform #submit:hover,
+.submit:hover,
+input[type=submit]:hover,
+input.button:hover,
+button.button:hover,
+#wrapper .woo-sc-button:hover,
+.added_to_cart:hover,
+.ns_button.wpb_button:hover,
+.tt_cta_button.wpb_button:hover,
+.yith-wcwl-add-button.show .add_to_wishlist:hover,
+.yith-wcwl-wishlistexistsbrowse a,
+.yith-wcwl-wishlistaddedbrowse a {
+  background-color: #821b3e;
+}
+ul.products li.product.product-category span.view-more {
+    background: url("../images/pink/background.gif") repeat scroll center 0 transparent;
+  /* Box shadow */
+  box-shadow: 0 2px 0 #A0375B; 
+  -moz-box-shadow: 0 2px 0 #A0375B; 
+  -webkit-box-shadow: 0 2px 0 #A0375B;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* 4. Post/page structure */
+/*-------------------------------------------------------------------------------------------*/
+
+#post-entries a:hover {
+  color: #C95980;
+}
+.single article.post > footer .list-f li.post-tags:before { 
+color: #C95980;
+}
+.single article.post > footer .list-f li.posted_in:before { 
+color: #C95980;
+}
+.post-meta ul li:before {
+color: #C95980;
+}
+#comments li.comment .comment_container .comment-text .name{
+	color: #C95980;
+}
+
+.jssidebar .widget h3,
+#sidebar .widget h3,
+.jssidebar.templatation .widgettitle {
+  color: #C95980;
+}
+.jssidebar .widget_rss .rsswidget a,
+#sidebar .widget_rss .rsswidget a { color: #C95980; }
+.jssidebar .widget_rss ul li a,
+#sidebar .widget_rss ul li a { display: inline; color: #C95980; }
+.jssidebar .woocommerce .product_list_widget li:hover,
+#sidebar .woocommerce .product_list_widget li:hover {
+  background: none repeat scroll 0 0 #C95980;
+}
+.jssidebar .woocommerce ul li .amount,
+#sidebar .woocommerce ul li .amount {
+  color: #C95980;
+}
+ del ,
+.price .amount,
+ del .amount,
+ .single-product .summary .yith-wcwl-add-button .add_to_wishlist, .single-product .summary .yith-wcwl-wishlistexistsbrowse a, .single-product .summary .yith-wcwl-wishlistaddedbrowse a {
+  color: #C95980;
+}
+article.hentry header h1, article.hentry header h2, article.type-post header h1, article.type-post header h2, article.type-page header h1, article.type-page header h2, .search #main article header h1, .search #main article header h2, h1.page-title, h2.page-title {
+  background: none repeat scroll 0 0 #C95980;
+  border-left: 100px solid #FBDBE6;
+}
+article.type-page header h1, article.type-page header h2, h1.page-title, h2.page-title {
+  border: none;
+  padding: 8px 10px;
+}
+article.hentry header ul, .search #main article header ul {
+  background: none repeat scroll 0 0 #FBDBE6;
+}
+article.hentry header ul li,
+article.hentry header ul li a,
+.search #main article header ul li,
+.search #main article header ul li a {
+    color: #C95980;
+}
+.nav-a > ul > li > a:hover > .shade-a, .nav-a > ul > li > a:focus > .shade-a, .nav-a > ul > li > a:active > .shade-a, .nav-a > ul > li.active > a > .shade-a, .nav-a > ul > li:hover > a > .shade-a,
+.wpb_tour.templatation ul.wpb_tabs_nav li.ui-tabs-active a .shade-a, .wpb_tour.templatation ul.wpb_tabs_nav li a:hover .shade-a, .wpb_tour.templatation ul.wpb_tabs_nav li a:focus .shade-a, .wpb_tour.templatation ul.wpb_tabs_nav li a:active .shade-a, .HDbg {
+    background: none repeat scroll 0 0 #C95980;
+}
+.nav-a > ul > li > a:hover, .nav-a > ul > li > a:focus, .nav-a > ul > li > a:active, .nav-a > ul > li.active > a, .nav-a > ul > li:hover > a,
+.wpb_tour.templatation.wpb_content_element .wpb_tabs_nav li.ui-tabs-active, .wpb_tour.templatation.wpb_content_element .wpb_tabs_nav li:hover {
+    border-left-color: #C95980;
+    color: #C95980;
+}
+.nav-a > ul > li > ul > li a:hover, .nav-a > ul > li > ul > li a:focus, .nav-a > ul > li > ul > li a:active,
+.wpb_tour.templatation.wpb_content_element .wpb_tabs_nav li.ui-tabs-active a, .wpb_tour.templatation.wpb_content_element .wpb_tabs_nav li:hover a { color: #C95980; } 
+
+.widget_templatation_testimonials .bx-prev, .widget_templatation_testimonials .bx-next,
+.home-featured .widget .bx-prev, .home-featured .widget .bx-next,
+.wpb_carousel .prev, .wpb_carousel .next,
+.templatation.wpb_carousel .prev, .templatation.wpb_carousel .next,
+.templatation.vc_carousel .vc_carousel-control.vc_right,
+.templatation.vc_carousel .vc_carousel-control.vc_left { background-color: #D98BA6; }
+
+.widget_templatation_testimonials .bx-prev:hover, .widget_templatation_testimonials .bx-next:hover,
+.home-featured .widget .bx-prev:hover, .home-featured .widget .bx-next:hover,
+.templatation.vc_carousel .vc_carousel-control.vc_right:hover,
+.templatation.vc_carousel .vc_carousel-control.vc_left:hover { background-color: #C95980; }
+
+.products-carousel ul.products .bx-wrapper .bx-controls .bx-next:hover,
+.home-showcase ul.products .bx-wrapper .bx-controls .bx-next:hover,
+.templatation.wpb_carousel .next:hover {  
+	background-color: #C95980;
+}
+.products-carousel ul.products .bx-wrapper .bx-controls .bx-prev:hover,
+.home-showcase ul.products .bx-wrapper .bx-controls .bx-prev:hover,
+.templatation.wpb_carousel .prev:hover {
+	background-color: #C95980;
+}
+
+.widget .product_list_widget li .quantity .amount,
+.widget_templatation_testimonials .testimonials .quote .testimonials-text cite.author,
+.templatation.wpb_teaser_grid .categories_filter li a, .templatation.wpb_categories_filter li a,
+.single-product .summary .yith-wcwl-add-button .add_to_wishlist, 
+.single-product .summary .yith-wcwl-wishlistexistsbrowse a, 
+.single-product .summary .yith-wcwl-wishlistaddedbrowse a {
+  color:#C95980;
+}
+.widget_price_filter .ui-slider .ui-slider-handle {
+  border: 1px solid #C95980;
+}
+.widget_price_filter .ui-slider .ui-slider-range {
+  background: #C95980;
+}
+.templatation.vc_progress_bar .vc_single_bar.bar_orange .vc_bar {background-color: #C95980;}
+
+/*-------------------------------------------------------------------------------------------*/
+/* 5. Footer structure */
+/*-------------------------------------------------------------------------------------------*/
+#footer-wrap {
+  background-color: #C95980;
+}
+#footer-wrap > .double-a, #footer-wrap > .double-a:after {
+  background-image: url("../images/pink/footer-top.png");
+}
+#footer-wrap.contact {
+  border-top: 4px solid #C95980;
+}
+#footer-wrap > .totop { 
+  background: url("../images/pink/sprite-a.png") no-repeat scroll -8px -268px transparent;
+}
+#footer-widgets {
+  border-top: 1px solid #C890A1;
+}
+#footer-widgets #searchform {
+  border:1px solid #C95980;
+}
+#footer-widgets .button {
+  background: #C95980;
+}
+#footer {
+  background: url("../images/pink/footer.png") repeat-x scroll center 0 transparent;
+}
+#footer-widgets .widget .product_list_widget li {
+    border-bottom: 1px solid #FFF;
+}
+
+#footer-widgets .widget .product_list_widget li img {
+    border: 1px solid #FFF;
+}
+#footer-widgets .widget .product_list_widget li .quantity, #footer-widgets .widget .product_list_widget li .amount {
+    color: #444444;
+}
+
+#footer-widgets .widget_shopping_cart a.button {  padding: 0 6px; }
+
+/*-------------------------------------------------------------------------------------------*/
+/* 6. Portfolio structure */
+/*-------------------------------------------------------------------------------------------*/
+#portfolio-gallery #port-tags li:hover {
+    color: #C95980;
+}
+#portfolio-gallery #port-tags li.current a{
+    color: #C95980;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* 7. Woocommerce Styles */
+/*-------------------------------------------------------------------------------------------*/
+.woo-pagination a {
+  background: none repeat scroll 0 0 #C95980;
+  border: 3px solid #DEA6B9;
+}
+.woo-pagination a:hover {
+  color: #C95980;
+}
+
+.woo-pagination .page-numbers.current {
+  border: 3px solid #DEA6B9;
+  color: #C95980;
+}
+.woocommerce-message,
+.woocommerce_message {
+  border-top-color: #C95980;
+}
+.woocommerce-message:before,
+.woocommerce_message:before {
+  content: "\f05d";
+  color: #C95980;
+}
+.star-rating span:before {
+  color: #C95980;
+}
+p.stars a.star-1:hover:after,
+p.stars a.star-2:hover:after,
+p.stars a.star-3:hover:after,
+p.stars a.star-4:hover:after,
+p.stars a.star-5:hover:after,
+p.stars a.star-1.active:after,
+p.stars a.star-2.active:after,
+p.stars a.star-3.active:after,
+p.stars a.star-4.active:after,
+p.stars a.star-5.active:after {
+  color: #C95980;
+}
+.woocommerce-info,
+.woocommerce_info,
+.noreviews,
+.create-account p:first-child,
+.nocomments {
+  border-top-color: #C95980;
+}
+.woocommerce-info,
+.woocommerce_info,
+.noreviews,
+.create-account p:first-child,
+.nocomments {
+  border-top-color: #C95980;
+}
+.woocommerce-info:before,
+.woocommerce_info:before,
+.noreviews:before,
+.create-account p:first-child:before,
+.nocomments:before {
+  color: #C95980;
+}
+#infscr-loading {
+  border-top-color: #C95980;
+}
+.stock:before {
+  color: #C95980;
+}
+span.onsale {
+  background: #C95980;
+}
+span.onsale:after {
+  background: #C95980;
+}
+ul.products li.product.sale .img-wrap .price {
+  background: #C95980;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* 8. Tooltip Styles */
+/*-------------------------------------------------------------------------------------------*/
+#tiptip_content {
+  background-color: #c67f97;
+}
+#tiptip_holder.tip_top #tiptip_arrow_inner {
+  border-top-color: #c67f97;
+}
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+  border-bottom-color: #c67f97;
+}
+#tiptip_holder.tip_right #tiptip_arrow_inner {
+  border-right-color: #c67f97;
+}
+#tiptip_holder.tip_left #tiptip_arrow_inner {
+  border-left-color: #c67f97;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  #tiptip_content {
+    background-color: #c67f97;
+  }
+  #tiptip_holder.tip_bottom #tiptip_arrow_inner {
+    border-bottom-color: #c67f97;
+  }
+  #tiptip_holder.tip_top #tiptip_arrow_inner {
+    border-top-color: #c67f97;
+  }
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (   min--moz-device-pixel-ratio: 1.5),
+only screen and (     -o-min-device-pixel-ratio: 3/2),
+only screen and (        min-device-pixel-ratio: 1.5),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+	.tparrows.default,
+	#header.d #navigation > ul > li,
+	#headline .headline-right-side .header-cart { background-image: url('../images/pink/sprite-a@2x.png'); }
+	.tp-bullets.simplebullets.round .bullet { background-image: url("../images/pink/sprite-a@2x.png") }
+	#footer { background: url('../images/pink/footer@2x.png') repeat-x scroll center 0 transparent; background-size: 3000px 30px; }
+	#footer-wrap > .double-a, #footer-wrap > .double-a:after { background-image: url("../images/pink/footer-top@2x.png"); }
+}
+
+.sliderh2 {
+    background: none repeat scroll 0 0 #C95980;
+}
+.slidertext {
+    border-bottom: 3px solid #C95980;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* 9. Media queries */
+/*-------------------------------------------------------------------------------------------*/
+/*----------------------*/
+@media only screen and (max-width: 768px) {
+	#navigation ul.nav li a:hover,
+	#navigation ul.nav li a:focus,
+	#navigation ul.nav li a:active {
+	 background: #C95980;
+	 color: #FFFFFF;
+	}   
+}
+@media only screen and (min-width: 769px) {
+  /* 1. GLOBAL DROPDOWN STYLES (these are purely for the dropdown layout and you should only edit the width of the dropdowns) */
+
+	ul.nav ul.sub-menu li a {
+		color: #C95980;
+	}
+	#navigation ul.nav ul.sub-menu li a{
+		color: #C95980;
+	}
+	#navigation ul.nav li.parent:hover ul.sub-menu a  {
+		color: #C95980!important;
+	}
+	#navigation ul.nav ul.sub-menu li a:hover {
+		background:#C95980;
+		color: #FFF;
+	}
+    #header.f.h #navigation {
+        background: none repeat scroll 0 0 #C95980;
+    }
+	#header.f.h #navigation > ul > li > a:hover,
+	#header.f.h #navigation > ul > li > a:focus,
+	#header.f.h #navigation > ul > li > a:active,
+	#header.f.h #navigation > ul > li:active > a,
+	#header.f.h #navigation > ul > li:hover > a,
+    #header.f.h #navigation ul.nav > li.parent > a:hover,
+    #header.f.h #navigation ul.nav > li.parent:hover a {
+		background: none repeat scroll 0 0 #FFFFFF;
+		color: #C95980;
+	}
+	#navigation ul.nav li.parent:hover ul.sub-menu a:hover  {
+		background:#C95980;
+		color: #FFF!important;
+	}
+	#header.b #navigation > ul > li > a:hover,#header.b #navigation > ul > li > a:focus,#header.b #navigation > ul > li > a:active,
+	#header.e #navigation > ul > li > a:hover,#header.e #navigation > ul > li > a:focus,#header.e #navigation > ul > li > a:active,
+	#header.f #navigation > ul > li > a:hover,#header.f #navigation > ul > li > a:focus,#header.f #navigation > ul > li > a:active,
+	#header.b #navigation > ul > li:active > a,
+	#header.e #navigation > ul > li:active > a,
+	#header.f #navigation > ul > li:active > a,
+	#header.b #navigation > ul > li:hover > a,
+	#header.e #navigation > ul > li:hover > a,
+	#header.f #navigation > ul > li:hover > a  {
+		background: none repeat scroll 0 0 #C95980;
+		color: #FFF;
+	}
+	#header.b #navigation ul.nav > li.current_page_item a,
+	#header.b #navigation ul.nav li.current_page_parent > a,
+	#header.b #navigation ul.nav li.current-cat a,
+	#header.b #navigation ul.nav li.current-menu-ancestor a,
+	#header.b #navigation ul.nav li.current-menu-item > a,
+	#header.b #navigation ul.nav li.li.current-menu-item > a,
+	#header.e #navigation ul.nav > li.current_page_item a,
+	#header.e #navigation ul.nav li.current_page_parent > a,
+	#header.e #navigation ul.nav li.current-cat a,
+	#header.e #navigation ul.nav li.current-menu-ancestor a,
+	#header.e #navigation ul.nav li.current-menu-item > a,
+	#header.e #navigation ul.nav li.li.current-menu-item > a,
+	#header.f #navigation ul.nav > li.current_page_item a,
+	#header.f #navigation ul.nav li.current_page_parent > a,
+	#header.f #navigation ul.nav li.current-cat a,
+	#header.f #navigation ul.nav li.current-menu-ancestor a,
+	#header.f #navigation ul.nav li.current-menu-item > a,
+	#header.f #navigation ul.nav li.li.current-menu-item > a {
+		background: none repeat scroll 0 0 #C95980;
+		color: #FFF;
+	}
+	#header.f.h #navigation ul.nav > li.current_page_item a,
+	#header.f.h #navigation ul.nav li.current_page_parent > a,
+	#header.f.h #navigation ul.nav li.current-cat a,
+	#header.f.h #navigation ul.nav li.current-menu-ancestor a,
+	#header.f.h #navigation ul.nav li.current-menu-item > a,
+	#header.f.h #navigation ul.nav li.li.current-menu-item > a {
+		background: none repeat scroll 0 0 #FFF;
+		color: #C95980;
+	}
+	#header.b #navigation ul.nav > li.parent > a:hover,
+	#header.e #navigation ul.nav > li.parent > a:hover,
+	#header.f #navigation ul.nav > li.parent > a:hover {
+		background: none repeat scroll 0 0 #C95980;
+		color: #FFF;
+	}
+	#header.b #navigation ul.nav > li.parent:hover a,
+	#header.e #navigation ul.nav > li.parent:hover a,
+	#header.f #navigation ul.nav > li.parent:hover a {
+		background: none repeat scroll 0 0 #C95980;
+		color: #FFF;
+	}
+	#header.b #navigation ul.nav > li.parent:hover li a,
+	#header.e #navigation ul.nav > li.parent:hover li a,
+	#header.f #navigation ul.nav > li.parent:hover li a {
+		background: none repeat scroll 0 0 #FFFFFF;
+	}
+	#header.b #navigation ul.nav > li.parent:hover li a:hover,
+	#header.e #navigation ul.nav > li.parent:hover li a:hover,
+	#header.f #navigation ul.nav > li.parent:hover li a:hover {
+		background: none repeat scroll 0 0 #C95980;
+		color: #FFF;
+	}
+	#header.c #navigation > ul > li {
+		background-image: url("../images/pink/slash.png");
+	}
+	#header.c #navigation > ul > li > a:hover,
+	#header.c #navigation > ul > li > a:focus,
+	#header.c #navigation > ul > li > a:active,
+	#header.c #navigation > ul > li:active > a,
+	#header.c #navigation > ul > li:hover > a {
+		background: none repeat scroll 0 0 #C95980;
+	}
+	#header.c #navigation > ul > li > a:hover {
+		background: none repeat scroll 0 0 #C95980;
+	}
+	#header.c #navigation ul.nav > li.current_page_item a,
+	#header.c #navigation ul.nav li.current_page_parent > a,
+	#header.c #navigation ul.nav li.current-cat a,
+	#header.c #navigation ul.nav li.current-menu-ancestor a,
+	#header.c #navigation ul.nav li.current-menu-item > a,
+	#header.c #navigation ul.nav li.li.current-menu-item > a {
+		background: none repeat scroll 0 0 #C95980;
+	}
+	#header.c #navigation ul.nav > li.parent > a:hover {
+		background: none repeat scroll 0 0 #C95980;
+	}
+	#header.c #navigation ul.nav > li.parent:hover a {
+		background: none repeat scroll 0 0 #C95980;
+	}
+	#header.c #navigation ul.nav > li.parent:hover li a {
+		background: none repeat scroll 0 0 #FFFFFF;
+	}
+	#header.c #navigation ul.nav > li.parent:hover li a:hover {
+		background: none repeat scroll 0 0 #C95980;
+	}
+	#header.c #navigation > ul > li > a > .shade-a {
+		background-image: url("../images/pink/sprite-a.png");
+	}
+	#header .header-top .row .account .account-links ul {
+		box-shadow: 0.618em 0 0 0 #C95980;
+		-webkit-box-shadow: 0.618em 0 0 0 #C95980;
+	}
+	table.cart .tt_cart_table_item .product-price,
+	table.cart .tt_cart_table_item .product-subtotal
+	{ 
+		color: #C95980;
+	}
+	#header #navigation ul#main-nav > li.megamenu > ul.sub-menu { border-top: 3px solid #C95980; }
+	#header #navigation ul#main-nav > li.megamenu > ul.sub-menu > li a { border-right: 1px dotted #C95980; }
+	#header.f #navigation ul.nav > li.parent:hover li a { color: #C95980; }
+	@media
+	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (   min--moz-device-pixel-ratio: 1.5),
+	only screen and (     -o-min-device-pixel-ratio: 3/2),
+	only screen and (        min-device-pixel-ratio: 1.5),
+	only screen and (                min-resolution: 192dpi),
+	only screen and (                min-resolution: 2dppx) { 
+	#header.c #navigation > ul > li {
+		background-image: url("../images/pink/slash@2x.png");
+	}
+	#header.c #navigation > ul > li > a > .shade-a {
+		background-image: url("../images/pink/sprite-a@2x.png");
+	}
+	}
+}
+
+@media only screen and (min-width: 767px) {
+  .cart-collaterals .cart_totals table tbody .total { color:#C95980; }
+  table.cart .tt_cart_table_item .product-price,
+  table.cart .tt_cart_table_item .product-subtotal
+   { 
+    font-size: 1.1em;
+	color: #C95980;
+	font-weight: 700;
+  }
+
+}

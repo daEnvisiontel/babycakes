@@ -1,0 +1,167 @@
+/* -------------------------------------------------------------------------------- */
+/* Shortcode styling */
+/* -------------------------------------------------------------------------------- */
+
+.rmc-menu {
+	margin-bottom: 20px;
+}
+
+.rmc-menu ul {
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+}
+
+.rmc-menu li {
+	overflow: hidden;
+	margin: 0 0 15px 0;
+}
+
+.rmc-menu .wp-post-image {
+	float: left;
+	margin: 5px 20px 0 0;
+}
+
+.rmc-menu div {
+	overflow: hidden;
+}
+
+.rmc-menu ul p {
+	margin: 0;
+}
+
+.rmc-menu .title {
+	float: left;
+	padding: 0 5px 0 0;
+	text-transform: uppercase;
+}
+
+.rmc-menu .price {
+	float: left;
+	padding: 0 0 0 5px;
+}
+
+.rmc-menu .description {
+	font-style: italic;
+}
+
+.rmc-menu .labels {
+	overflow: hidden;
+	padding-top: 5px;
+}
+
+.rmc-menu .labels span {
+	float: left;
+	margin-right: 10px;
+	font-size: 10px;
+}
+
+/* classic style */
+
+.rmc-menu-classic li div.head {
+	background: url("../images/dot.png") repeat-x 0 16px;
+}
+
+.rmc-menu-classic .price {
+	float: right;
+}
+
+.rmc-menu-classic .title,
+.rmc-menu-classic .price {
+	background: #FFFFFF;
+}
+
+/* list style */
+
+.rmc-menu-list li {
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+	background: url("../images/dot.png") repeat-x bottom left;
+}
+
+.rmc-menu-list .price {
+	float: right;
+}
+
+/* grid style */
+
+.rmc-menu-grid li > div {
+	position: relative;
+	padding: 10px 15px 15px 15px;
+	border: 1px dotted #DDDDDD;
+}
+
+.rmc-menu-grid .price {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-left: 1px dotted #DDDDDD;
+	border-bottom: 1px dotted #DDDDDD;
+	padding: 1px 6px;
+}
+
+/* 2col */
+
+.rmc-menu-2col li {
+	width: 48%;
+	margin-right: 4%;
+	float: left;
+}
+
+.rmc-menu-2col li:nth-child(2n+2) {
+	margin-right: 0;
+}
+
+.rmc-menu-2col li:nth-child(2n+1) {
+	clear: both;
+}
+
+/* 3col */
+
+.rmc-menu-3col li {
+	width: 31%;
+	margin-right: 3%;
+	float: left;
+}
+
+.rmc-menu-3col li:nth-child(3n+3) {
+	margin-right: 0;
+}
+
+.rmc-menu-3col li:nth-child(3n+1) {
+	clear: both;
+}
+
+@media screen and (max-width: 767px) {
+	
+	.rmc-menu li {
+		width: 100%;
+		margin-right: 0;
+	}
+	
+}
+
+/* -------------------------------------------------------------------------------- */
+/* Widget styling */
+/* -------------------------------------------------------------------------------- */
+
+.widget_rmc-menu-items li {
+	list-style: none !important;
+}
+
+.widget_rmc-menu-items .wp-post-image {
+	margin-bottom: 10px;
+}
+
+.widget_rmc-menu-items p {
+	margin: 0 !important;
+	padding: 5px 0 0 0;
+}
+
+.widget_rmc-menu-items .title {
+	text-transform: uppercase;
+}
+
+.widget_rmc-menu-items .description {
+	font-style: italic;
+}

@@ -1,0 +1,2 @@
+this folder is made for developers, if you need to add more icons to Social font, you can import the social.dev.svg file in this folder to http://icomoon.io/app and add more icons.
+The index file here shows the codes for all the icons available.

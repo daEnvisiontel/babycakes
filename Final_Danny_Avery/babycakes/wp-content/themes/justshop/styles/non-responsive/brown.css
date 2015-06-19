@@ -1,0 +1,149 @@
+/* This small stylesheet is for non-responsive menu color hack */
+/* www.Templatation.com */
+
+
+  /* 1. GLOBAL DROPDOWN STYLES (these are purely for the dropdown layout and you should only edit the width of the dropdowns) */
+
+	ul.nav ul.sub-menu li a {
+		color: #9d563a;
+	}
+	#navigation ul.nav ul.sub-menu li a {
+		color: #9d563a !important;
+	}
+	#navigation ul.nav ul.sub-menu li a:hover {
+		color: #FFF !important;
+	}
+	#header.e #navigation ul.nav > li.parent:hover li a:hover {
+		color: #9d563a !important;
+	}
+	#navigation ul.nav li.parent:hover ul.sub-menu a  {
+		color: #9d563a;
+	}
+	#header.e #navigation ul.nav > li.parent:hover li a:hover {
+		color: #FFF!important;
+		background:#9d563a;
+	}
+	#navigation ul.nav ul.sub-menu li a:hover, #navigation ul.nav li.parent:hover ul.sub-menu a:hover  {
+		background:#9d563a;
+		color: #FFF;
+	}
+	#header.f #navigation ul.nav > li.current_page_item a,
+	#header.f #navigation ul.nav > li.current_page_item a,
+	#header.f #navigation ul.nav li.current_page_parent > a,
+	#header.f #navigation ul.nav li.current-cat a,
+	#header.f #navigation ul.nav li.current-menu-ancestor a,
+	#header.f #navigation ul.nav li.li.current-menu-item > a,
+	#navigation ul.nav ul.sub-menu li a {
+		background: none repeat scroll 0 0 #9d563a;
+		color: #FFF;
+	}
+	#header.f.h #navigation {
+		background: none repeat scroll 0 0 #9d563a;
+	}
+	#header.f.h #navigation > ul > li > a:hover,
+	#header.f.h #navigation > ul > li > a:focus,
+	#header.f.h #navigation > ul > li > a:active,
+	#header.f.h #navigation > ul > li:active > a,
+	#header.f.h #navigation > ul > li:hover > a,
+    #header.f.h #navigation ul.nav > li.parent > a:hover,
+    #header.f.h #navigation ul.nav > li.parent:hover a,
+	#header.f.h #navigation > ul > li > a:hover,
+	#header.f.h #navigation > ul > li > a:focus,
+	#header.f.h #navigation ul.nav > li.current_page_item a,
+	#header.f.h #navigation ul.nav li.current_page_parent > a,
+	#header.f.h #navigation ul.nav li.current-cat a,
+	#header.f.h #navigation ul.nav li.current-menu-ancestor a,
+	#header.f.h #navigation ul.nav li.li.current-menu-item > a {
+		background: none repeat scroll 0 0 #FFF;
+		color: #9d563a;
+	}
+	#header #navigation ul#main-nav > li.megamenu > ul.sub-menu { border-top: 3px solid #9d563a; }
+	#header #navigation ul#main-nav > li.megamenu > ul.sub-menu > li a { border-right: 1px dotted #9d563a; }
+	#header #navigation ul#main-nav > li.megamenu > ul.sub-menu > li a:hover,
+	#header.b #navigation > ul > li > a:hover,
+	#header.f #navigation > ul > li > a:focus,
+	#header.f #navigation ul.nav > li.parent:hover li a:hover,
+	#header.f #navigation > ul > li > a:hover {
+	color: #FFF;background: none repeat scroll 0 0 #9d563a; }
+	#header.f #navigation ul.nav > li.parent:hover a, 
+	#header.e #navigation > ul > li > a:hover,
+	#header.e #navigation ul.nav > li.parent:hover a,
+	#header.e #navigation ul.nav > li.current_page_item a,
+	#header.e #navigation ul.nav li.current_page_parent > a,
+	#header.e #navigation ul.nav li.current-cat a, 
+	#header.e #navigation ul.nav li.current-menu-ancestor a, 
+	#header.e #navigation ul.nav li.li.current-menu-item > a
+	{ background: none repeat scroll 0 0 #9d563a; }
+	#header #navigation ul#main-nav > li.megamenu > ul.sub-menu > li > a,
+	#header #navigation ul#main-nav > li.megamenu.parent:hover > ul.sub-menu > li > a,
+	#header.d #navigation > ul > li > a:hover { color: #4A3B3C !important; }
+	
+	#header.b #navigation ul.nav > li.current_page_item a,
+	#header.b #navigation ul.nav li.current_page_parent > a,
+	#header.b #navigation ul.nav li.current-cat a,
+	#header.b #navigation ul.nav li.current-menu-ancestor a,
+	#header.b #navigation ul.nav li.li.current-menu-item > a {
+		background: none repeat scroll 0 0 #9d563a;
+	}
+	#header.b #navigation ul.nav > li.parent > a:hover {
+		background: none repeat scroll 0 0 #9d563a;
+	}
+	#header.b #navigation ul.nav > li.parent:hover a {
+		background: none repeat scroll 0 0 #9d563a;
+	}
+	#header.b #navigation ul.nav > li.parent:hover li a {
+		background: none repeat scroll 0 0 #FFFFFF;
+	}
+	#header.b #navigation ul.nav > li.parent:hover li a:hover,
+	#header.e #navigation ul.nav > li.parent:hover li a:hover,
+	#header.f #navigation ul.nav > li.parent:hover li a:hover
+	#header.f.h #navigation ul.nav > li.parent:hover li a:hover {
+		background: none repeat scroll 0 0 #9d563a;
+		color:#fff;
+	}
+	#header.c #navigation > ul > li {
+		margin: 0 0 0 -1px;
+		padding: 0 0 0 9px;
+		background-image: url("../../images//slash.png");
+	}
+	#header.c #navigation > ul > li > a:hover,
+	#header.c #navigation > ul > li > a:focus,
+	#header.c #navigation > ul > li > a:active,
+	#header.c #navigation > ul > li:active > a,
+	#header.c #navigation > ul > li:hover > a {
+		background: none repeat scroll 0 0 #9d563a;
+	}
+	#header.c #navigation > ul > li > a:hover {
+		background: none repeat scroll 0 0 #9d563a;
+	}
+	#header.c #navigation ul.nav > li.current_page_item a,
+	#header.c #navigation ul.nav li.current_page_parent > a,
+	#header.c #navigation ul.nav li.current-cat a,
+	#header.c #navigation ul.nav li.current-menu-ancestor a,
+	#header.c #navigation ul.nav li.li.current-menu-item > a {
+		background: none repeat scroll 0 0 #9d563a;
+	}
+	#header.c #navigation ul.nav > li.parent > a:hover {
+		background: none repeat scroll 0 0 #9d563a;
+	}
+	#header.c #navigation ul.nav > li.parent:hover a {
+		background: none repeat scroll 0 0 #9d563a;
+	}
+	#header.c #navigation ul.nav > li.parent:hover li a {
+		background: none repeat scroll 0 0 #FFFFFF;
+	}
+	#header.c #navigation ul.nav > li.parent:hover li a:hover {
+		background: none repeat scroll 0 0 #9d563a;
+	}
+	#header.c #navigation > ul > li > a > .shade-a {
+		background: url("../../images//sprite-a.png") no-repeat scroll -170px -417px transparent;
+	}
+	#header .header-top .row .account .account-links ul {
+		box-shadow: 0.618em 0 0 0 #9d563a;
+		-webkit-box-shadow: 0.618em 0 0 0 #9d563a;
+	}
+	table.cart .tt_cart_table_item .product-price,
+	table.cart .tt_cart_table_item .product-subtotal
+	{ 
+		color: #9d563a;
+	}
